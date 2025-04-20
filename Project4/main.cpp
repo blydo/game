@@ -1,5 +1,6 @@
 #include <iostream> 
 #include <string>
+#include <Windows.h>
 
 int main()
 {
@@ -45,7 +46,7 @@ int main()
 				Sleep(500);
 				std::cout << "\n...Шаг...";
 				}
-				system("cls")
+				system("cls");
 				std::cout << "в итоге ты решил послушать странника и смог выбраться из комнатыю\n";
 				std::cout << "1.выход \n";
 				std::cout << "Ввод";
